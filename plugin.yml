@@ -1,0 +1,37 @@
+name: GoldRush
+main: com.gmail.filoghost.goldrush.GoldRush
+version: 1.0
+
+softdepend: [WildCommons, HolographicMobs]
+
+commands:
+  goldrush:
+    description: Comando principale per GoldRush (Admin).
+    usage: /<command>
+    aliases: [gr]
+  spawn:
+    description: Torna allo spawn.
+    usage: /<command>
+    aliases: [lobby]
+  arena:
+    description: Comandi per gestire le arene (Admin).
+    usage: /<command>
+  start:
+    description: Fai partire una arena.
+    usage: /<command>
+  rank:
+    description: Impostazioni classifica (Admin).
+    usage: /<command>
+  stats:
+    description: Statistiche.
+    usage: /<command>
+  classifica:
+    description: Classifica uccisioni.
+    usage: /<command>
+  coins:
+    description: Coins.
+    usage: /<command>
+  global:
+    description: Chat globale.
+    usage: /<command>
+    aliases: [g]
